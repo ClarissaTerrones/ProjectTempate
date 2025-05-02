@@ -2,7 +2,7 @@
 
 # Protein Function Prediction
 
-* This repository explores the use of a Histogram-based Gradient Boosting Classifier to predict the functional class of proteins based on their sequence-derived features and physicochemical properties.
+* This repository explores the use of a Histogram-based Gradient Boosting Classifier to predict the functional class of proteins based on their sequence-derived features.
 * https://www.kaggle.com/datasets/gallo33henrique/bioinformatics-protein-dataset-simulated?select=proteinas_test.csv
 
 ## Overview
