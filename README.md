@@ -37,7 +37,23 @@ This repository addresses the task of classifying proteins into one of five func
 
 #### Data Visualization
 
-Show a few visualization of the data and say a few words about what you see.
+
+1. **Class Distribution**  
+   ![Class Distribution](images/class_distribution.png)  
+   *The dataset contains balanced representation across all 5 protein classes.*
+
+2. **Feature Separability**  
+   ![Molecular Weight by Class](images/molecular_weight_dist.png)  
+   *Molecular weight shows some class-dependent variation, particularly for Receptor proteins.*  
+
+3. **Feature Discriminative Power**  
+   ![KS Statistics](images/ks_stats.png)  
+   *Charged amino acid content shows the highest discriminative power (KS=0.43) between classes.*
+
+4. **Model Performance**  
+   ![Confusion Matrix](images/confusion_matrix.png)  
+   *The confusion matrix reveals the model struggles most with distinguishing between Structural and Transport proteins.*
+
 
 
 ### Problem Formulation
