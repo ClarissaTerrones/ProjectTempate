@@ -47,11 +47,6 @@ This repository addresses the task of classifying proteins into one of five func
     ![Comparison of Numerical Features](Compares%20numerical%20features%20across%20classes.png)
 
 
-* **Comparison of Numerical Features Across Classes:**
-Histograms are used to visualize the distribution of numerical features for each protein class. This visualization helps in understanding how the values of features like molecular weight, isoelectric point, and hydrophobicity vary across different functional classes.  The histograms are arranged in a grid layout to facilitate comparison.
-
-    ![Comparison of Numerical Features](Compares%20numerical%20features%20across%20classes.png)
-
 
 ### Performance Comparison
 
