@@ -42,9 +42,18 @@ This repository addresses the task of classifying proteins into one of five func
 
     ![Bar Chart of Target Variable](Bar%20charts.png)
 
-* **Comparison of Numerical Features Across Classes:** Histograms comparing the distributions of numerical features across different protein classes. The Kolmogorov-Smirnov (KS) test is used to quantify the difference between the distributions.
+* **Comparison of  Features Across Classes:** Histograms comparing the distributions of numerical features across different protein classes. The Kolmogorov-Smirnov (KS) test is used to quantify the difference between the distributions.
 
     ![Comparison of Numerical Features](Compares%20numerical%20features%20across%20classes.png)
+
+
+
+
+* **Histograms Comparing Numerical Features Across Classes**
+
+    Histograms are used to visualize the distribution of numerical features for each protein class. This visualization helps in understanding how the values of features like molecular weight, isoelectric point, and hydrophobicity vary across different functional classes
+
+    ![Histograms Comparing Numerical Features Across Classes](Comparing%20distributions%20with%20histograms..png)
 
 
 
