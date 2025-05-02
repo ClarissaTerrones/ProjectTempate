@@ -49,14 +49,6 @@ This repository addresses the task of classifying proteins into one of five func
 
 
 
-* **Histograms Comparing Numerical Features Across Classes**
-
-    Histograms are used to visualize the distribution of numerical features for each protein class. This visualization helps in understanding how the values of features like molecular weight, isoelectric point, and hydrophobicity vary across different functional classes
-
-    ![Histograms Comparing Numerical Features Across Classes](Comparing%20distributions%20with%20histograms..png)
-
-
-
 ### Performance Comparison
 
 * **Confusion Matrix (Test Set):** A confusion matrix visualizing the model's performance on the test set, showing the distribution of predicted versus actual classes.
