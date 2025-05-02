@@ -38,21 +38,19 @@ This repository addresses the task of classifying proteins into one of five func
 #### Data Visualization
 
 
-1. **Class Distribution**  
-   ![Class Distribution](images/class_distribution.png)  
-   *The dataset contains balanced representation across all 5 protein classes.*
+* **Bar Chart of Target Variable ('Classe'):** A bar chart showing the distribution of protein functional classes in the dataset.
 
-2. **Feature Separability**  
-   ![Molecular Weight by Class](images/molecular_weight_dist.png)  
-   *Molecular weight shows some class-dependent variation, particularly for Receptor proteins.*  
+    ![Bar Chart of Target Variable](Bar%20charts.png)
 
-3. **Feature Discriminative Power**  
-   ![KS Statistics](images/ks_stats.png)  
-   *Charged amino acid content shows the highest discriminative power (KS=0.43) between classes.*
+* **Comparison of Numerical Features Across Classes:** Histograms comparing the distributions of numerical features across different protein classes. The Kolmogorov-Smirnov (KS) test is used to quantify the difference between the distributions.
 
-4. **Model Performance**  
-   ![Confusion Matrix](images/confusion_matrix.png)  
-   *The confusion matrix reveals the model struggles most with distinguishing between Structural and Transport proteins.*
+    ![Comparison of Numerical Features](Compares%20numerical%20features%20across%20classes.png)
+
+### Performance Comparison
+
+* **Confusion Matrix (Test Set):** A confusion matrix visualizing the model's performance on the test set, showing the distribution of predicted versus actual classes.
+
+    ![Confusion Matrix (Test Set)](Model%20Performance.png)
 
 
 
@@ -63,8 +61,6 @@ This repository addresses the task of classifying proteins into one of five func
     * Output: Prediction of the protein's functional class (one of five categories).
     * Models:
         * Histogram-based Gradient Boosting Classifier: Chosen for its efficiency and performance on tabular data.
-    * Loss, Optimizer, other Hyperparameters: The `HistGradientBoostingClassifier` in scikit-learn uses a loss function appropriate for multi-class classification (e.g., categorical cross-entropy implicitly). We used the default optimizer and some default hyperparameters initially, with `random_state` set for reproducibility.
-
 
 ### Training
 
@@ -107,9 +103,7 @@ This repository addresses the task of classifying proteins into one of five func
 ### Overview of files in repository
 
 * This README.md: Provides an overview of the project.
-* The Python code snippets provided in the previous turns contain the data loading, preprocessing, model training, and evaluation steps. These would typically be organized into one or more `.ipynb` or `.py` files.
-
-
+  
 ### Software Setup
 * pandas
 * numpy
@@ -123,7 +117,7 @@ This repository addresses the task of classifying proteins into one of five func
 
 ### Training
 
-* rained using scikit-learn.
+* Trained using scikit-learn.
 
 * Training time was minimal.
 
