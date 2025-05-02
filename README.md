@@ -6,7 +6,7 @@
 * https://www.kaggle.com/datasets/gallo33henrique/bioinformatics-protein-dataset-simulated?select=proteinas_test.csv
 
 ## Overview
-This repository addresses the task of classifying proteins into one of five functional classes (Estrutural, Receptora, Enzima, Transporte, Outras) using a tabular dataset. The approach formulates this as a multi-class classification problem, showing various protein features. The focused on making a single algorithm work effectively as per the initial request. Our chosen model, a Histogram-based Gradient Boosting Classifier, achieved a validation accuracy of approximately 20%.
+This repository addresses the task of classifying proteins into one of five functional classes (Estrutural, Receptora, Enzima, Transporte, Outras) using a tabular dataset. The approach formulates this as a multi-class classification problem, showing various protein features. The focused on making a single algorithm work effectively as per the initial request. The chosen model, a Histogram-based Gradient Boosting Classifier, achieved a validation accuracy of approximately 20%.
 
 ## Summary of Workdone
 
